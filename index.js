@@ -12,7 +12,7 @@ const cli = meow(`
 	  --input, -i  Input file
 
 	${chalk.green('Examples')}
-	  $ factory -i ./some-file
+	  $ npm run factory -i ./some-file
 `, {
 	booleanDefault: undefined,
 	flags: {
